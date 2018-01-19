@@ -2,9 +2,17 @@
 {
     public static class Calculator
     {
-        public static double Divide(int numerator, int denominator)
+        public static DivisionModel Divide(DivisionModel division)
         {
-            return numerator / denominator;
+            division.Result = division.Numerator / division.Denominator;
+            return division;
         }
+    }
+
+    public class DivisionModel
+    {
+        public double Numerator { get; set; } 
+        public double Denominator { get; set;}
+        public double Result { get; set; } 
     }
 }

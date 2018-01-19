@@ -3,13 +3,13 @@
 }
 
 <div class="jumbotron">
-    <h1>Parmenion</h1>
+    <h1>Parmenion Calculator</h1>
      <div>
-         <form action="/">
-             <input type="text" />
-             <input type="text" />
-             <input type="submit" value="Divide"/>
-             <input type="text" />
+         <form action="/" method="post">
+             <input type="text" id="Numerator" name="Numerator"/> /
+             <input type="text" id="Denominator" name="Denominator"/> 
+             <input type="submit" value="Divide" id="Submit"/>
+             @ViewData["Result"]
          </form>
      </div>
 </div>

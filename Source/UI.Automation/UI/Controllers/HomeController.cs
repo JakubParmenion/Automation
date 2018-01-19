@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using UI.Models;
 
 namespace UI.Controllers
 {
@@ -10,6 +11,13 @@ namespace UI.Controllers
     {
         public ActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(DivisionModel division)
+        {
+            ViewData["Result"] = Calculator.Divide(division).Result;
             return View();
         }
 
