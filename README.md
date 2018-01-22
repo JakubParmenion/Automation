@@ -20,6 +20,9 @@ o	The scope of the tests to be written should only concern the user interface co
 
 ## Output
 o	You should design a set of BDD test scenarios that test the functionality of the controls in the application under test. 
+o In completing your test please submit a pull request to the above repository.
+  We are unable to accept a response to the code test in any way other than through a pull request in the repository detailed above.
+  We cannot accept any form of compressed files due to information security implications. 
 o	The scenarios should exist in a single feature file that you add into the solution.
 o	You should implement an automated test framework that the Step Definitions you create use to exercise the user interface.
 o	It should be possible to compile the solution into which you add the test framework and scenarios.
