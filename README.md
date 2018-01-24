@@ -54,25 +54,21 @@ o	It should be possible to rough up a prototype in half a day if everything goes
 o	Feel free to drop areas of functionality if they are a significant time drain, the aim is a prototype not a finished product
 
 ## Follow Up Questions
-1.	How long did you spend on the code test?
-I have spend almost 4 hours.
+1.	How long did you spend on the code test? 
+4 hours
 
-2.	What went well?
-It works! I was able to be prepered for selenium version updates, diffrent frameworks and difrent drivers configurations. 
-Managed to separate layer of step definitions from framework implementation. 
+2.	What went well? 
+Test was performed successfully. I was able to be prepare selenium version updates, several frameworks 
+and driver configurations. I’ve also managed to separate layer of step definitions from framework implementation. 
 
-3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code?
-First thing would be proper reporting. After one hour of tries I have decided it would be better to fit into proposed 
-time table then to find proper you to do it.
+3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code? 
+Appropriate reporting appeared to be a moderate challenge. After several attempts, with deadline in mind, I’ve managed to 
+find proper solution Second challenge would be dependency injection. I was not fully pleased with the implementation direct class. 
+Spring was used to combat these issues. Third challenge was extracting xPath data from page model class. 
 
-Second would be dependency injection. I was quite unhappy to implemet interface using direct class implementation. 
-I have got used to Spring and ease that comes with it.
+4.	What would you do to improve it / continue development? 
+I would suggest starting from point 3. From my understanding, there would be more changes further into the project. Soon after 
+reaching all goals, time to value ratio of my work would become too low to proceed with the changes. 
 
-Third would be extracting xPath data from page model class.
-
-4.	What would you do to improve it / continue development?
-I would start with everything from point 3. I understand that more into project there would be changes. 
-Soon after finishing all requirments time/value ratio of my work would become to low to spend any more time on it. 
-
-As for continue development I would integrate it into automation server i.e. Jenkins. 
-Create suit of unit tests to verify exiting logic and functional tests to verify selenium.
+With regards to further development, I would integrate it into automation server i.e. Jenkins. I would suggest creating suit 
+of unit tests to verify exiting logic and functional tests to verify selenium.
