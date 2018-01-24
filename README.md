@@ -55,7 +55,24 @@ o	Feel free to drop areas of functionality if they are a significant time drain,
 
 ## Follow Up Questions
 1.	How long did you spend on the code test?
-2.	What went well?
-3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code?
-4.	What would you do to improve it / continue development?
+I have spend almost 4 hours.
 
+2.	What went well?
+It works! I was able to be prepered for selenium version updates, diffrent frameworks and difrent drivers configurations. 
+Managed to separate layer of step definitions from framework implementation. 
+
+3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code?
+First thing would be proper reporting. After one hour of tries I have decided it would be better to fit into proposed 
+time table then to find proper you to do it.
+
+Second would be dependency injection. I was quite unhappy to implemet interface using direct class implementation. 
+I have got used to Spring and ease that comes with it.
+
+Third would be extracting xPath data from page model class.
+
+4.	What would you do to improve it / continue development?
+I would start with everything from point 3. I understand that more into project there would be changes. 
+Soon after finishing all requirments time/value ratio of my work would become to low to spend any more time on it. 
+
+As for continue development I would integrate it into automation server i.e. Jenkins. 
+Create suit of unit tests to verify exiting logic and functional tests to verify selenium.
