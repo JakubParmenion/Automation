@@ -16,46 +16,45 @@ this consists of a simple UI which is the end point against which automated test
 The UI consists of: 2 input text fields, 1 output text field,	1 calculate button
 
 ## Assumptions
-o	The scope of the tests to be written should only concern the user interface controls on the page
+*	The scope of the tests to be written should only concern the user interface controls on the page
 
 ## Output
-o	You should design a set of BDD test scenarios that test the functionality of the controls in the application under test. 
-o In completing your test please submit a pull request to the above repository.
+*	You should design a set of BDD test scenarios that test the functionality of the controls in the application under test. 
+* In completing your test please submit a pull request to the above repository.
   We are unable to accept a response to the code test in any way other than through a pull request in the repository detailed above.
   We cannot accept any form of compressed files due to information security implications. 
-o	The scenarios should exist in a single feature file that you add into the solution.
-o	You should implement an automated test framework that the Step Definitions you create use to exercise the user interface.
-o	It should be possible to compile the solution into which you add the test framework and scenarios.
-o	It should be possible to run the automated test scenarios by building a library from the solution using the SpecFlow test runner.
-o	The implemented test scenarios must exit with the status of either Pass or Fail and a test report should be generated as an output of the scenarios.
+*	The scenarios should exist in a single feature file that you add into the solution.
+*	You should implement an automated test framework that the Step Definitions you create use to exercise the user interface.
+*	It should be possible to compile the solution into which you add the test framework and scenarios.
+*	It should be possible to run the automated test scenarios by building a library from the solution using the SpecFlow test runner.
+*	The implemented test scenarios must exit with the status of either Pass or Fail and a test report should be generated as an output of the scenarios.
 
 ## Technical Requirements
 ###	Requirements
-o	Visual Studio Solution,
-o	Solution is written C#,
-o	A pull request is created in the GIT repository detailed above,
-o	Selenium is used to automate the user interface of the application under test,
-o	SpecFlow test runner is used to implement the tests and tests are contained in a single feature file,
+*	Visual Studio Solution,
+*	Solution is written C#,
+*	A pull request is created in the GIT repository detailed above,
+*	Selenium is used to automate the user interface of the application under test,
+*	SpecFlow test runner is used to implement the tests and tests are contained in a single feature file,
 
 ###	Focus On
-o	Test Coverage,
-o	Cucumber style,
-o	Coding style,
-o	Test data approach,
-o	Design patterns and best  practices,
-o	Levels of automated tests that can be implemented,
-o	Locator approach.
+*	Test Coverage,
+*	Cucumber style,
+*	Coding style,
+*	Test data approach,
+*	Design patterns and best  practices,
+*	Levels of automated tests that can be implemented,
+*	Locator approach.
 
 ## Timescales
 ###	Prototype
-o	It doesn’t need to be complete, just demonstrate the concepts
+*	It doesn’t need to be complete, just demonstrate the concepts
 ###	Approximate Timescale
-o	It should be possible to rough up a prototype in half a day if everything goes smoothly, don’t worry about spending ages on it but let me know how long you did spend
-o	Feel free to drop areas of functionality if they are a significant time drain, the aim is a prototype not a finished product
+*	It should be possible to rough up a prototype in half a day if everything goes smoothly, don’t worry about spending ages on it but let me know how long you did spend
+*	Feel free to drop areas of functionality if they are a significant time drain, the aim is a prototype not a finished product
 
 ## Follow Up Questions
 1.	How long did you spend on the code test?
 2.	What went well?
 3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code?
 4.	What would you do to improve it / continue development?
-
