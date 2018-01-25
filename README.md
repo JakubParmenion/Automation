@@ -35,7 +35,7 @@ The UI consists of: 2 input text fields, 1 output text field,	1 calculate button
 *	Solution is written C#,
 *	A pull request is created in the GIT repository detailed above,
 *	Selenium is used to automate the user interface of the application under test,
-*	SpecFlow test runner is used to implement the tests and tests are contained in a single feature file,
+*	SpecFlow test runner or equivilent is used to implement the tests and tests are contained in a single feature file,
 
 ###	Focus On
 *	Test Coverage,
