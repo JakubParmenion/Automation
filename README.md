@@ -39,7 +39,7 @@ The UI consists of: 2 input text fields, 1 output text field,	1 calculate button
 
 ###	Focus On
 *	Test Coverage,
-*	Cucumber style,
+*	Gherkin style,
 *	Coding style,
 *	Test data approach,
 *	Design patterns and best  practices,
