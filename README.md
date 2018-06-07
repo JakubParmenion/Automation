@@ -20,9 +20,6 @@ The UI consists of: 2 input text fields, 1 output text field,	1 calculate button
 
 ## Output
 *	You should design a set of BDD test scenarios that test the functionality of the controls in the application under test. 
-* In completing your test please submit a pull request to the above repository.
-  We are unable to accept a response to the code test in any way other than through a pull request in the repository detailed above.
-  We cannot accept any form of compressed files due to information security implications. 
 *	The scenarios should exist in a single feature file that you add into the solution.
 *	You should implement an automated test framework that the Step Definitions you create use to exercise the user interface.
 *	It should be possible to compile the solution into which you add the test framework and scenarios.
@@ -54,22 +51,11 @@ The UI consists of: 2 input text fields, 1 output text field,	1 calculate button
 *	Feel free to drop areas of functionality if they are a significant time drain, the aim is a prototype not a finished product
 
 ## Follow Up Questions
-1.	How long did you spend on the code test? 
-4 hours
+1.	How long did you spend on the code test? 2
 
 2.	What went well? 
-Test was performed successfully. I was able to be prepare selenium version updates, several frameworks 
-and driver configurations. I’ve also managed to separate layer of step definitions from framework implementation. 
 
 3.	Was there anything that was attempted but was not possible to get working in the time so is not visible in the code? 
-Appropriate reporting appeared to be a moderate challenge. After several attempts, with deadline in mind, I’ve managed to 
-find proper solution Second challenge would be dependency injection. I was not fully pleased with the implementation direct class. 
-Spring was used to combat these issues. Third challenge was extracting xPath data from page model class. 
 
 4.	What would you do to improve it / continue development? 
-I would suggest starting from point 3. From my understanding, there would be more changes further into the project. Soon after 
-reaching all goals, time to value ratio of my work would become too low to proceed with the changes. 
-
-With regards to further development, I would integrate it into automation server i.e. Jenkins. I would suggest creating suit 
-of unit tests to verify exiting logic and functional tests to verify selenium.
 
