@@ -32,7 +32,7 @@
         public void ThenIShouldSeeThe()
         {
             calculator.Click_Submit_Button();
-            // the retuning text NaN should be chnaged to something more meaningful
+            // the retuning text NaN should be changed to something more meaningful
           
         }
         [Then(@"I should see the correct answer")]
